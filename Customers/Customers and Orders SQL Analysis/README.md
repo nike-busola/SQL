@@ -28,22 +28,17 @@ Demonstrate the difference between retrieving all columns and selecting specific
 
 customerj
 
-
 The customer table is used for customer-level analysis.
 
 Key fields referenced in the queries include:
 
-Column           Description
-
-customer_id      Unique customer identifier
-
-cust_name        Customer name
-
-city             Customer's city
-
-grade            Customer grade/rating
-
-salesman_id      Salesperson associated with the customer
+| Column          | Description                           |
+| --------------- | ------------------------------------- |
+| `customer_id`   | Unique customer identifier            |
+| `cust_name`     | Customer's name                       |
+| `city`          | Customer's city                       |
+| `grade`         | Customer's grade/rating               |
+| `salesman_id`   | Salesperson associated with customer  |
 
 orders
 
@@ -51,17 +46,13 @@ The orders table is used for transaction-level analysis.
 
 Key fields referenced include:
 
-Column           Description
-
-ord_no           Order number
-
-purch_amt        Purchase amount
-
-ord_date         Order date
-
-customer_id      Customer associated with the order
-
-salesman_id      Salesperson associated with the order
+| Column          | Description                           |
+| --------------- | ------------------------------------- |
+| `ord_no`        | Order number                          |
+| `purch_amt`     | Purchase amount                       |
+| `ord_date`      | Order date                            |
+| `customer_id`   | Customer associated with the order    |
+| `salesman_id`   | Salesperson associated with the order |
 
 ## SQL Concepts Demonstrated
 
